@@ -1,0 +1,52 @@
+:root{
+--primary-color:#00b0ff;
+--secundary-color:#00b8d4;
+--third-color:#000000;
+--four-color:#fafafa;}
+
+.panel{
+width: 80%;
+border-color: 1px solid black;
+margin: auto;
+}
+
+#logo{
+position: relative;
+top: 5px;
+margin: auto;
+padding: 0px;  
+}
+nav{
+    background-color: var(--primary-color);
+}
+.icon-notification{
+font-size: 11px;
+font-weight: bold;
+color: #FFF;
+background: #052963;
+line-height: 17px;
+width: 20px;
+height: 20px;
+border-radius: 2em;
+-webkit-border-radius: 2em;
+-moz-border-radius: 2em;
+-o-border-radius: 2em;
+text-align: center;
+display: inline-block;
+position: absolute;
+top: 0%;
+padding: 2px 0 0;
+}
+
+/*Menu left*/
+.container-menu{
+ width: 500px;
+}
+.menu-left{
+background-color: var(--primary-color);
+display: table-caption;
+width: 100%;    
+}
+.menu-left ul li{
+  margin-top: 50px;
+}
